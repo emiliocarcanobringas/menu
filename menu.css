@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('tu-imagen-de-fondo.jpg'); /* Cambia 'tu-imagen-de-fondo.jpg' por la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#menu-desplegable {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo parcialmente transparente */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+#menu-desplegable:focus {
+    border-color: rgba(0, 123, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+    box-shadow: 0 2px 4px rgba(58, 129, 255, 0.4);
+}
